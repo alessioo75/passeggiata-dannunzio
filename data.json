@@ -1,0 +1,106 @@
+{
+  "itinerari": [
+    {
+      "id": "dannunzio_roma",
+      "nome": "Passeggiata Dannunziana",
+      "sottotitolo": "Una Roma Estetica e Sensoriale",
+      "personaggio": {
+        "nome": "Gabriele D'Annunzio",
+        "biografia_breve": "Scrittore, dandy e simbolo del Decadentismo, che fece di Roma il suo palcoscenico mondano e artistico."
+      },
+      "categoria": "Letteratura e Arte",
+      "durata_totale_ore": 3,
+      "distanza_totale_km": 2.5,
+      "tappe": [
+        {
+          "numero": 1,
+          "nome": "Palazzo Zuccari",
+          "coordinate": [41.9056, 12.4839],
+          "orario_consigliato": "16:00",
+          "momento_giornata": "pomeriggio",
+          "descrizione_storica": "Il rifugio di Andrea Sperelli nel romanzo 'Il Piacere'. Un luogo isolato dalla folla per immergersi nell'estetica decadente.",
+          "esperienza_culturale": {
+            "letteratura": {
+              "opera": "Il Piacere (1889)",
+              "citazione": "Egli abitava in Roma, nel palazzo Zuccari, su la piazza della Trinità de' Monti. Le stanze erano piene di un'ombra dorata e profonda, perfetta per l'attesa."
+            },
+            "musica": {
+              "brano": "Ideale",
+              "autore": "F.P. Tosti"
+            },
+            "atmosfera": {
+              "luce": "dorata e radente",
+              "emozione_target": "Attesa malinconica"
+            }
+          }
+        },
+        {
+          "numero": 2,
+          "nome": "Terrazza del Pincio",
+          "coordinate": [41.9114, 12.4797],
+          "orario_consigliato": "17:30",
+          "momento_giornata": "tramonto",
+          "descrizione_storica": "Il palcoscenico della nobiltà romana. Qui Sperelli osservava la 'Divina Roma' tingersi di rosso.",
+          "esperienza_culturale": {
+             "letteratura": {
+              "opera": "Il Piacere (1889)",
+              "citazione": "Tutta la Divina Roma appariva in un'aria d'oro, come una città di mito. Una malinconia immensa scendeva dal cielo infocato."
+            },
+            "musica": {
+              "brano": "Nocturne Op. 9 No. 2",
+              "autore": "F. Chopin"
+            },
+            "atmosfera": {
+              "luce": "rosso purpureo",
+              "emozione_target": "Sublime decadente"
+            }
+          }
+        },
+        {
+          "numero": 3,
+          "nome": "Via Margutta",
+          "coordinate": [41.9082, 12.4795],
+          "orario_consigliato": "18:30",
+          "momento_giornata": "crepuscolo",
+          "descrizione_storica": "La via degli artisti e degli incisori. Un angolo di silenzio ed edera dove la creatività si fonde con l'isolamento.",
+          "esperienza_culturale": {
+             "letteratura": {
+              "opera": "Il Piacere (1889)",
+              "citazione": "Cercava rifugio nelle botteghe oscure di via Margutta, tra l'odore forte delle vernici e il silenzio polveroso dell'arte."
+            },
+            "musica": {
+              "brano": "Canto di una vita",
+              "autore": "G.A. Sartorio"
+            },
+            "atmosfera": {
+              "luce": "ombre lunghe e soffuse",
+              "emozione_target": "Fervore creativo"
+            }
+          }
+        },
+        {
+          "numero": 4,
+          "nome": "Galleria Sciarra",
+          "coordinate": [41.8995, 12.4818],
+          "orario_consigliato": "19:30",
+          "momento_giornata": "sera",
+          "descrizione_storica": "Sede della redazione de 'La Tribuna'. Qui il vero D'Annunzio trasformava il gossip mondano in letteratura.",
+          "esperienza_culturale": {
+             "letteratura": {
+              "opera": "Cronache de La Tribuna (1884-1888)",
+              "citazione": "Il bel mondo si accalca sotto i vetri scintillanti della Galleria, tra mormorii di scandali, duelli e fruscii di sete preziose."
+            },
+            "musica": {
+              "brano": "Valzer Brillante",
+              "autore": "G. Verdi"
+            },
+            "atmosfera": {
+              "luce": "riflessi serali a gas",
+              "emozione_target": "Vanità mondana"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
