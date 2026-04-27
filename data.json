@@ -6,100 +6,262 @@
       "sottotitolo": "Una Roma Estetica e Sensoriale",
       "personaggio": {
         "nome": "Gabriele D'Annunzio",
-        "biografia_breve": "Scrittore, dandy e simbolo del Decadentismo, che fece di Roma il suo palcoscenico mondano e artistico."
+        "anni": "1863-1938",
+        "professione": "Scrittore, poeta e giornalista",
+        "nazionalita": "Italiana",
+        "biografia_breve": "Scrittore, dandy e simbolo del Decadentismo, che fece di Roma il suo palcoscenico mondano e artistico. Le sue opere e le sue cronache trasformano la città eterna in un'esperienza estetica totalizzante.",
+        "immagine": "dannunzio.jpg",
+        "opere_correlate": [
+          "Il Piacere (1889)",
+          "L'innocente (1892)",
+          "Le Laudi (1903)"
+        ]
       },
+      "tema": "Letteratura Decadente e Cronaca Mondana",
       "categoria": "Letteratura e Arte",
       "durata_totale_ore": 3,
+      "difficolta": "facile",
+      "immagine_copertina": "dannunzio.jpg",
       "distanza_totale_km": 2.5,
+      "periodo_consigliato": "Autunno/Primavera",
+      "stagione_migliore": ["ottobre", "novembre", "marzo", "aprile"],
+      "descrizione": "Un itinerario che ripercorre le tappe romane del Vate, sovrapponendo la sua vita da cronista mondano alle vicende del suo alter ego Andrea Sperelli ne 'Il Piacere'. Un viaggio che unisce letteratura, storia dell'arte e narrazione urbana.",
+      "note_logistiche": "Percorso interamente pedonale nel cuore del Tridente romano. Ideale da iniziare a metà pomeriggio per far coincidere la tappa del Pincio con il tramonto.",
+      "accessibilita": "Tutte le tappe sono accessibili e si snodano nel centro storico servito dalla Metro A (fermate Spagna e Barberini).",
+      "costo_stimato": "Gratuito",
       "tappe": [
         {
           "numero": 1,
-          "nome": "Palazzo Zuccari",
-          "coordinate": [41.9056, 12.4839],
+          "poi_id": "palazzo_zuccari",
           "orario_consigliato": "16:00",
           "momento_giornata": "pomeriggio",
-          "descrizione_storica": "Il rifugio di Andrea Sperelli nel romanzo 'Il Piacere'. Un luogo isolato dalla folla per immergersi nell'estetica decadente.",
+          "durata_visita_min": 30,
+          "coordinate": [41.9056, 12.4839],
+          "nome": "Palazzo Zuccari",
+          "descrizione_breve": "Il rifugio di Andrea Sperelli nel romanzo 'Il Piacere'. Un luogo isolato dalla folla per immergersi nell'estetica decadente.",
+          "indicazioni_arrivo": "Metro A fermata Piazza di Spagna, salire la scalinata di Trinità dei Monti.",
           "esperienza_culturale": {
-            "letteratura": {
-              "opera": "Il Piacere (1889)",
-              "citazione": "Egli abitava in Roma, nel palazzo Zuccari, su la piazza della Trinità de' Monti. Le stanze erano piene di un'ombra dorata e profonda, perfetta per l'attesa."
-            },
             "musica": {
-              "brano": "Ideale",
-              "autore": "F.P. Tosti"
+              "brano_completo": "Ideale",
+              "compositore": "F.P. Tosti",
+              "durata_sec": 195,
+              "descrizione_musicale": "Romanza da salotto tipica della fine dell'Ottocento, perfetta per evocare le atmosfere intime e sentimentali dei salotti nobiliari frequentati da D'Annunzio.",
+              "audio_path": "audio/tosti.mp3",
+              "note_ascolto": "Da ascoltare osservando il famoso portone a forma di mascherone demoniaco."
+            },
+            "letteratura": {
+              "citazione": "Egli abitava in Roma, nel palazzo Zuccari, su la piazza della Trinità de' Monti. Le stanze erano piene di un'ombra dorata e profonda, perfetta per l'attesa.",
+              "autore": "Gabriele D'Annunzio",
+              "opera": "Il Piacere",
+              "anno": 1889
             },
             "atmosfera": {
+              "momento": "pomeriggio",
               "luce": "dorata e radente",
+              "suoni_ambiente": [
+                "brusio in lontananza da Piazza di Spagna",
+                "passi sui sanpietrini",
+                "rintocchi delle campane di Trinità dei Monti"
+              ],
+              "temperatura_stimata": "18-20°C",
+              "affollamento": "basso",
               "emozione_target": "Attesa malinconica"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Manierismo",
+              "architetto": "Federico Zuccari",
+              "anno_costruzione": "1590",
+              "descrizione": "Palazzo noto per la sua facciata su via Gregoriana, caratterizzata da porte e finestre le cui cornici hanno la forma di enormi bocche aperte."
             }
+          },
+          "storia": "Il palazzo fu progettato dal pittore manierista Federico Zuccari come sua dimora e studio. Tra l'Ottocento e il Novecento divenne un cenacolo intellettuale.",
+          "curiosita": "D'Annunzio scelse questo palazzo come dimora per il suo protagonista perché la sua estetica bizzarra e aristocratica rappresentava il perfetto distacco dalla Roma 'plebea'. Oggi ospita la Biblioteca Hertziana.",
+          "metadata": {
+            "accessibilita": "Esterno gratuito. Interni accessibili su prenotazione (Biblioteca Hertziana).",
+            "orari_standard": "Visibile dall'esterno 24/7"
           }
         },
         {
           "numero": 2,
-          "nome": "Terrazza del Pincio",
-          "coordinate": [41.9114, 12.4797],
+          "poi_id": "terrazza_pincio",
           "orario_consigliato": "17:30",
           "momento_giornata": "tramonto",
-          "descrizione_storica": "Il palcoscenico della nobiltà romana. Qui Sperelli osservava la 'Divina Roma' tingersi di rosso.",
+          "durata_visita_min": 45,
+          "coordinate": [41.9114, 12.4797],
+          "nome": "Terrazza del Pincio",
+          "descrizione_breve": "Il palcoscenico della nobiltà romana. Qui Sperelli osservava la 'Divina Roma' tingersi di rosso.",
+          "indicazioni_arrivo": "Da Palazzo Zuccari: a piedi percorrendo Viale della Trinità dei Monti verso Villa Borghese.",
+          "tempo_spostamento_da_tappa_precedente": {
+            "a_piedi": "10 min",
+            "distanza_km": 0.8
+          },
           "esperienza_culturale": {
-             "letteratura": {
-              "opera": "Il Piacere (1889)",
-              "citazione": "Tutta la Divina Roma appariva in un'aria d'oro, come una città di mito. Una malinconia immensa scendeva dal cielo infocato."
-            },
             "musica": {
-              "brano": "Nocturne Op. 9 No. 2",
-              "autore": "F. Chopin"
+              "brano_completo": "Nocturne Op. 9 No. 2",
+              "compositore": "F. Chopin",
+              "durata_sec": 268,
+              "descrizione_musicale": "Il notturno al pianoforte riflette il languore e la decadenza del sole che scende sui tetti di Roma, un tema centrale nella poetica dannunziana.",
+              "audio_path": "audio/chopin.mp3",
+              "note_ascolto": "Lasciar scorrere le note mentre lo sguardo spazia dalla Cupola di San Pietro all'orizzonte."
+            },
+            "letteratura": {
+              "citazione": "Tutta la Divina Roma appariva in un'aria d'oro, come una città di mito. Una malinconia immensa scendeva dal cielo infocato.",
+              "autore": "Gabriele D'Annunzio",
+              "opera": "Il Piacere",
+              "anno": 1889
             },
             "atmosfera": {
-              "luce": "rosso purpureo",
+              "momento": "tramonto",
+              "luce": "rosso purpureo e arancio",
+              "suoni_ambiente": [
+                "musica di artisti di strada",
+                "vociare diffuso",
+                "fruscio degli alberi di Villa Borghese"
+              ],
+              "temperatura_stimata": "16-18°C",
+              "affollamento": "alto",
               "emozione_target": "Sublime decadente"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Neoclassicismo",
+              "architetto": "Giuseppe Valadier",
+              "anno_costruzione": "1810-1824",
+              "descrizione": "Una delle passeggiate panoramiche più celebri di Roma, voluta durante l'amministrazione napoleonica e completata sotto il ritorno pontificio."
             }
+          },
+          "storia": "La terrazza, affacciata su Piazza del Popolo, divenne fin dall'Ottocento il luogo prediletto per il passeggio delle carrozze dell'alta borghesia e dell'aristocrazia.",
+          "curiosita": "Nelle cronache giornalistiche di D'Annunzio, il rito del Pincio era minuziosamente descritto: egli annotava gli abiti, i pettegolezzi e gli sguardi rubati dell'alta società romana.",
+          "metadata": {
+            "accessibilita": "Gratuito, sempre accessibile",
+            "orari_standard": "24/7"
           }
         },
         {
           "numero": 3,
-          "nome": "Via Margutta",
-          "coordinate": [41.9082, 12.4795],
+          "poi_id": "via_margutta",
           "orario_consigliato": "18:30",
           "momento_giornata": "crepuscolo",
-          "descrizione_storica": "La via degli artisti e degli incisori. Un angolo di silenzio ed edera dove la creatività si fonde con l'isolamento.",
+          "durata_visita_min": 30,
+          "coordinate": [41.9082, 12.4795],
+          "nome": "Via Margutta",
+          "descrizione_breve": "La via degli artisti e degli incisori. Un angolo di silenzio ed edera dove la creatività si fonde con l'isolamento.",
+          "indicazioni_arrivo": "Dal Pincio: scendere verso Piazza del Popolo e imboccare Via del Babuino, poi voltare a sinistra in Via Margutta.",
+          "tempo_spostamento_da_tappa_precedente": {
+            "a_piedi": "12 min",
+            "distanza_km": 1.0
+          },
           "esperienza_culturale": {
-             "letteratura": {
-              "opera": "Il Piacere (1889)",
-              "citazione": "Cercava rifugio nelle botteghe oscure di via Margutta, tra l'odore forte delle vernici e il silenzio polveroso dell'arte."
-            },
             "musica": {
-              "brano": "Canto di una vita",
-              "autore": "G.A. Sartorio"
+              "brano_completo": "Gymnopédie No. 1",
+              "compositore": "Erik Satie",
+              "durata_sec": 210,
+              "descrizione_musicale": "Un componimento denso che richiama il fermento artistico, la pittura e il sudore creativo degli atelier nascosti nei cortili.",
+              "audio_path": "audio/satie.mp3",
+              "note_ascolto": "Ascoltare passeggiando lentamente, sbirciando oltre i cancelli coperti di edera."
+            },
+            "letteratura": {
+              "citazione": "Cercava rifugio nelle botteghe oscure di via Margutta, tra l'odore forte delle vernici e il silenzio polveroso dell'arte.",
+              "autore": "Gabriele D'Annunzio",
+              "opera": "Il Piacere",
+              "anno": 1889
             },
             "atmosfera": {
+              "momento": "crepuscolo",
               "luce": "ombre lunghe e soffuse",
+              "suoni_ambiente": [
+                "silenzio ovattato",
+                "rumori metallici da laboratori artigiani",
+                "eco dei passi nei cortili interni"
+              ],
+              "temperatura_stimata": "15°C",
+              "affollamento": "basso",
               "emozione_target": "Fervore creativo"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Edilizia pittoresca e cortili",
+              "descrizione": "Una strada caratterizzata da palazzi ricoperti di rampicanti, fontanelle storiche e ampi cortili vetrati progettati per far entrare la luce negli studi d'arte."
             }
+          },
+          "storia": "Nata come strada di retrobotteghe e stalle, dal Seicento in poi è stata colonizzata da pittori fiamminghi e italiani, diventando la 'Montmartre romana'.",
+          "curiosita": "D'Annunzio frequentava assiduamente gli atelier dei suoi amici pittori in questa via, in particolare Giulio Aristide Sartorio e Francesco Paolo Michetti, le cui opere influenzarono profondamente il suo gusto estetico.",
+          "metadata": {
+            "accessibilita": "Gratuito",
+            "orari_standard": "Strada pubblica 24/7. Gallerie e studi seguono orari commerciali."
           }
         },
         {
           "numero": 4,
-          "nome": "Galleria Sciarra",
-          "coordinate": [41.8995, 12.4818],
+          "poi_id": "galleria_sciarra",
           "orario_consigliato": "19:30",
           "momento_giornata": "sera",
-          "descrizione_storica": "Sede della redazione de 'La Tribuna'. Qui il vero D'Annunzio trasformava il gossip mondano in letteratura.",
+          "durata_visita_min": 30,
+          "coordinate": [41.8995, 12.4818],
+          "nome": "Galleria Sciarra",
+          "descrizione_breve": "Sede storica della redazione de 'La Tribuna'. Qui il vero D'Annunzio trasformava il gossip mondano in grande letteratura.",
+          "indicazioni_arrivo": "Da Via Margutta: percorrere Via del Corso verso Piazza Venezia fino all'altezza di Via Marco Minghetti.",
+          "tempo_spostamento_da_tappa_precedente": {
+            "a_piedi": "15 min",
+            "distanza_km": 1.3
+          },
           "esperienza_culturale": {
-             "letteratura": {
-              "opera": "Cronache de La Tribuna (1884-1888)",
-              "citazione": "Il bel mondo si accalca sotto i vetri scintillanti della Galleria, tra mormorii di scandali, duelli e fruscii di sete preziose."
-            },
             "musica": {
-              "brano": "Valzer Brillante",
-              "autore": "G. Verdi"
+              "brano_completo": "Valzer Brillante",
+              "compositore": "G. Verdi",
+              "durata_sec": 225,
+              "descrizione_musicale": "Ritmo incalzante e mondano che ricorda il ticchettio delle macchine da scrivere e il brusio frenetico dell'alta società capitolina.",
+              "audio_path": "audio/verdi.mp3",
+              "note_ascolto": "Da ascoltare posizionandosi al centro del cortile coperto, ammirando gli affreschi Liberty."
+            },
+            "letteratura": {
+              "citazione": "Il bel mondo si accalca sotto i vetri scintillanti della Galleria, tra mormorii di scandali, duelli e fruscii di sete preziose.",
+              "autore": "Gabriele D'Annunzio",
+              "opera": "Cronache de La Tribuna",
+              "anno": "1884-1888"
             },
             "atmosfera": {
-              "luce": "riflessi serali a gas",
+              "momento": "sera",
+              "luce": "riflessi serali dei lampioni e illuminazione architettonica",
+              "suoni_ambiente": [
+                "eco delle voci sotto la volta a vetri",
+                "traffico distante di Via del Corso"
+              ],
+              "temperatura_stimata": "14°C",
+              "affollamento": "basso (la sera si svuota)",
               "emozione_target": "Vanità mondana"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Eclettismo / Liberty",
+              "architetto": "Giulio De Angelis",
+              "anno_costruzione": "1885-1888",
+              "descrizione": "Cortile pedonale coperto da una volta in ferro e vetro. Le pareti sono interamente affrescate da Giuseppe Cellini con la 'Glorificazione della Donna' borghese."
             }
+          },
+          "storia": "Voluta dal principe Maffeo Barberini Colonna di Sciarra, divenne il centro nevralgico dell'editoria e del giornalismo di fine secolo.",
+          "curiosita": "Proprio nei palazzi adiacenti alla galleria aveva sede 'La Tribuna'. Il giovane D'Annunzio vi lavorava come giornalista mondano usando lo pseudonimo di 'Happemouche', costruendo il suo mito letterario prima ancora di pubblicare i romanzi.",
+          "metadata": {
+            "accessibilita": "Accessibile a tutti (passaggio pedonale)",
+            "orari_standard": "Aperta in orario d'ufficio, solitamente chiude la sera tardi"
           }
         }
+      ],
+      "mappa_percorso": {
+        "polyline_encoded": "encoded_path_dannunzio",
+        "colore_percorso": "#d4af37",
+        "stile_linea": "solid"
+      },
+      "consigli_pratici": [
+        "Portare la fotocamera per sfruttare la luce dorata (Golden Hour) al Pincio e a Via Margutta",
+        "Scaricare preventivamente le tracce musicali suggerite",
+        "Utilizzare scarpe comode per i sanpietrini del centro storico",
+        "Verificare gli orari di apertura dei cancelli di Galleria Sciarra se si arriva a tarda sera"
+      ],
+      "migliore_periodo_anno": "Ottobre-Novembre o Marzo-Aprile (per i colori caldi del tramonto)",
+      "sconsigliato": ["Mesi centrali estivi (luce troppo dura nel pomeriggio e caldo eccessivo)"],
+      "cosa_portare": [
+        "Smartphone con auricolari",
+        "Libro 'Il Piacere' (per rileggere le citazioni sul posto)",
+        "Macchina fotografica",
+        "Abbigliamento confortevole ma curato (in stile con la passeggiata estetica)"
       ]
     }
   ]
